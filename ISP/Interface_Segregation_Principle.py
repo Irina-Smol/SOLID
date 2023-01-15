@@ -1,6 +1,8 @@
 # ISP - Принцип разделения интерфейса
 
 # нарушение принципа
+from abc import abstractmethod
+
 class Machine:
     def print(self, document):
         raise NotImplementedError
